@@ -1,0 +1,19 @@
+name: sar_pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - matplotlib
+  - pandas
+  - scipy
+  - numpy
+  - xarray
+  - geopandas
+  - shapely
+  - dask
+  - pyproj
+  - rioxarray
+  - rasterio
+  - ipykernel
+  - jupyterlab
+prefix: /home/abhik/miniforge3/envs/sar_pipeline
