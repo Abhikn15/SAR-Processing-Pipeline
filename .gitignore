@@ -1,0 +1,45 @@
+# SAR data - do not upload large raw datasets
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Conda
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+
+# SAR / Remote Sensing large products
+*.SAFE/
+*.zip
+*.tif
+*.tiff
+*.img
+*.dim
+*.data/
+*.nc
+*.h5
+*.hdf5
