@@ -1,0 +1,92 @@
+SAR PROJECT - DAY 2 DATASET INVENTORY
+
+Study Area:
+Rudraprayag Tehsil, Rudraprayag District, Uttarakhand, India
+
+AOI File:
+data/aoi/rudraprayag_tehsil.geojson
+
+AOI CRS:
+EPSG:4326 - WGS 84
+
+AOI Geometry:
+MultiPolygon
+
+AOI Validation:
+Features: 1
+Valid: True
+Empty: False
+Bounds: 78.81685251, 30.25255029, 79.04750800, 30.62957774
+
+SAR Mission:
+Sentinel-1A
+
+Acquisition Mode:
+IW - Interferometric Wide Swath
+
+Product Type:
+GRD-HD
+
+Polarization:
+VV+VH
+
+Orbit Direction:
+DESCENDING
+
+Relative Orbit:
+63
+
+Acquisition Date:
+2025-04-15
+
+Number of SAR Products:
+2
+
+Combined AOI Coverage:
+99.97 percent
+
+
+PRODUCT 1
+
+File:
+S1A_IW_GRDH_1SDV_20250415T004330_20250415T004355_058760_07477C_CE7E.zip
+
+Acquisition Start:
+2025-04-15T00:43:30Z
+
+SHA256:
+31e9931feed8d9d204a99acc95f25acf23d80523ab851f391c40caeeaeda81c5
+
+ZIP Integrity:
+PASSED
+
+
+PRODUCT 2
+
+File:
+S1A_IW_GRDH_1SDV_20250415T004355_20250415T004420_058760_07477C_6F68.zip
+
+Acquisition Start:
+2025-04-15T00:43:55Z
+
+SHA256:
+cef486e900cde8e8c2abfbf8acad31c530387bfa54930e12f85af4ccea8b3ed4
+
+ZIP Integrity:
+PASSED
+
+
+DATA SOURCE:
+Alaska Satellite Facility - ASF DAAC
+
+DOWNLOAD DIRECTORY:
+data/raw/
+
+SEARCH METADATA:
+data/metadata/sentinel1_grd_rudraprayag_2025H1.csv
+
+CHECKSUM FILE:
+data/metadata/sentinel1_grd_20250415_sha256.txt
+
+STATUS:
+Dataset validated and ready for SAR preprocessing.
